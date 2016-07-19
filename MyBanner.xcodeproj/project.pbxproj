@@ -15,6 +15,12 @@
 		73A364DD1D3E759B00D137FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A364DB1D3E759B00D137FA /* LaunchScreen.storyboard */; };
 		73A364E81D3E759B00D137FA /* MyBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A364E71D3E759B00D137FA /* MyBannerTests.m */; };
 		73A364F31D3E759B00D137FA /* MyBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A364F21D3E759B00D137FA /* MyBannerUITests.m */; };
+		73A365051D3E75AC00D137FA /* myScroll0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73A365011D3E75AC00D137FA /* myScroll0.jpg */; };
+		73A365061D3E75AC00D137FA /* myScroll1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73A365021D3E75AC00D137FA /* myScroll1.jpg */; };
+		73A365071D3E75AC00D137FA /* myScroll2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73A365031D3E75AC00D137FA /* myScroll2.jpg */; };
+		73A365081D3E75AC00D137FA /* myScroll3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73A365041D3E75AC00D137FA /* myScroll3.jpg */; };
+		73A3650D1D3E75B100D137FA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3650B1D3E75B100D137FA /* iCarousel.m */; };
+		73A3650E1D3E75B100D137FA /* 归档.zip in Resources */ = {isa = PBXBuildFile; fileRef = 73A3650C1D3E75B100D137FA /* 归档.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		73A364EE1D3E759B00D137FA /* MyBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A364F21D3E759B00D137FA /* MyBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBannerUITests.m; sourceTree = "<group>"; };
 		73A364F41D3E759B00D137FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A365011D3E75AC00D137FA /* myScroll0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myScroll0.jpg; sourceTree = "<group>"; };
+		73A365021D3E75AC00D137FA /* myScroll1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myScroll1.jpg; sourceTree = "<group>"; };
+		73A365031D3E75AC00D137FA /* myScroll2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myScroll2.jpg; sourceTree = "<group>"; };
+		73A365041D3E75AC00D137FA /* myScroll3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myScroll3.jpg; sourceTree = "<group>"; };
+		73A3650A1D3E75B100D137FA /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		73A3650B1D3E75B100D137FA /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		73A3650C1D3E75B100D137FA /* 归档.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "归档.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,8 @@
 		73A364C11D3E759A00D137FA = {
 			isa = PBXGroup;
 			children = (
+				73A365091D3E75B100D137FA /* iCarousel */,
+				73A365001D3E75AC00D137FA /* MyScoll */,
 				73A364CC1D3E759B00D137FA /* MyBanner */,
 				73A364E61D3E759B00D137FA /* MyBannerTests */,
 				73A364F11D3E759B00D137FA /* MyBannerUITests */,
@@ -138,6 +153,27 @@
 				73A364F41D3E759B00D137FA /* Info.plist */,
 			);
 			path = MyBannerUITests;
+			sourceTree = "<group>";
+		};
+		73A365001D3E75AC00D137FA /* MyScoll */ = {
+			isa = PBXGroup;
+			children = (
+				73A365011D3E75AC00D137FA /* myScroll0.jpg */,
+				73A365021D3E75AC00D137FA /* myScroll1.jpg */,
+				73A365031D3E75AC00D137FA /* myScroll2.jpg */,
+				73A365041D3E75AC00D137FA /* myScroll3.jpg */,
+			);
+			path = MyScoll;
+			sourceTree = "<group>";
+		};
+		73A365091D3E75B100D137FA /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				73A3650A1D3E75B100D137FA /* iCarousel.h */,
+				73A3650B1D3E75B100D137FA /* iCarousel.m */,
+				73A3650C1D3E75B100D137FA /* 归档.zip */,
+			);
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A364DD1D3E759B00D137FA /* LaunchScreen.storyboard in Resources */,
+				73A365071D3E75AC00D137FA /* myScroll2.jpg in Resources */,
+				73A365061D3E75AC00D137FA /* myScroll1.jpg in Resources */,
+				73A365051D3E75AC00D137FA /* myScroll0.jpg in Resources */,
+				73A3650E1D3E75B100D137FA /* 归档.zip in Resources */,
 				73A364DA1D3E759B00D137FA /* Assets.xcassets in Resources */,
+				73A365081D3E75AC00D137FA /* myScroll3.jpg in Resources */,
 				73A364D81D3E759B00D137FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A364D51D3E759B00D137FA /* ViewController.m in Sources */,
+				73A3650D1D3E75B100D137FA /* iCarousel.m in Sources */,
 				73A364D21D3E759B00D137FA /* AppDelegate.m in Sources */,
 				73A364CF1D3E759B00D137FA /* main.m in Sources */,
 			);
