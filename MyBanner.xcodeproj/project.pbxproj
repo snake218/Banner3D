@@ -21,8 +21,8 @@
 		73A365081D3E75AC00D137FA /* myScroll3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73A365041D3E75AC00D137FA /* myScroll3.jpg */; };
 		73A3650D1D3E75B100D137FA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3650B1D3E75B100D137FA /* iCarousel.m */; };
 		73A3650E1D3E75B100D137FA /* 归档.zip in Resources */ = {isa = PBXBuildFile; fileRef = 73A3650C1D3E75B100D137FA /* 归档.zip */; };
-		73A365111D3EB3B000D137FA /* myBanner01.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3650F1D3EB3B000D137FA /* myBanner01.png */; };
-		73A365121D3EB3B000D137FA /* myBanner02.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A365101D3EB3B000D137FA /* myBanner02.png */; };
+		73A365151D3EB4A600D137FA /* myBanner02.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A365131D3EB4A600D137FA /* myBanner02.png */; };
+		73A365161D3EB4A600D137FA /* myBanner01.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A365141D3EB4A600D137FA /* myBanner01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,8 @@
 		73A3650A1D3E75B100D137FA /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		73A3650B1D3E75B100D137FA /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		73A3650C1D3E75B100D137FA /* 归档.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "归档.zip"; sourceTree = "<group>"; };
-		73A3650F1D3EB3B000D137FA /* myBanner01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myBanner01.png; sourceTree = "<group>"; };
-		73A365101D3EB3B000D137FA /* myBanner02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myBanner02.png; sourceTree = "<group>"; };
+		73A365131D3EB4A600D137FA /* myBanner02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myBanner02.png; sourceTree = "<group>"; };
+		73A365141D3EB4A600D137FA /* myBanner01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myBanner01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 		73A364C11D3E759A00D137FA = {
 			isa = PBXGroup;
 			children = (
-				73A3650F1D3EB3B000D137FA /* myBanner01.png */,
-				73A365101D3EB3B000D137FA /* myBanner02.png */,
+				73A365131D3EB4A600D137FA /* myBanner02.png */,
+				73A365141D3EB4A600D137FA /* myBanner01.png */,
 				73A365091D3E75B100D137FA /* iCarousel */,
 				73A365001D3E75AC00D137FA /* MyScoll */,
 				73A364CC1D3E759B00D137FA /* MyBanner */,
@@ -286,15 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A364DD1D3E759B00D137FA /* LaunchScreen.storyboard in Resources */,
+				73A365151D3EB4A600D137FA /* myBanner02.png in Resources */,
 				73A365071D3E75AC00D137FA /* myScroll2.jpg in Resources */,
 				73A365061D3E75AC00D137FA /* myScroll1.jpg in Resources */,
+				73A365161D3EB4A600D137FA /* myBanner01.png in Resources */,
 				73A365051D3E75AC00D137FA /* myScroll0.jpg in Resources */,
 				73A3650E1D3E75B100D137FA /* 归档.zip in Resources */,
 				73A364DA1D3E759B00D137FA /* Assets.xcassets in Resources */,
 				73A365081D3E75AC00D137FA /* myScroll3.jpg in Resources */,
 				73A364D81D3E759B00D137FA /* Main.storyboard in Resources */,
-				73A365111D3EB3B000D137FA /* myBanner01.png in Resources */,
-				73A365121D3EB3B000D137FA /* myBanner02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
